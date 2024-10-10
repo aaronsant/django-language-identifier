@@ -89,8 +89,8 @@ To get a local copy up and running, follow these steps:
 
    - Run the frontend (in a seperate terminal)
 
-    cd FRONT/ frontend
-    npm run dev
+     cd FRONT/ frontend
+     npm run dev
 
     To stop running the frontend or the backend use ctrl+c
     
