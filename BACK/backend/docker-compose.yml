@@ -1,0 +1,10 @@
+services:
+  app:
+   build: .
+   volumes:
+    - .:/app
+   ports:
+    - 8000:8000
+   image: dli-application:django
+   container_name: dli_container
+   command: gunicorn backend.wsgi:application --bind 0.0.0.0:8000
