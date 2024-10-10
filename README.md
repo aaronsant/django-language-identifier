@@ -49,7 +49,7 @@ To get a local copy up and running, follow these steps:
    git clone https://github.com/your-username/project-name.git
    cd project-name
 
-2. Backend Setup:
+3. Backend Setup:
    
    - Create Virtual Environment
      
@@ -66,11 +66,11 @@ To get a local copy up and running, follow these steps:
      
      python manage.py migrate
      
-3. Create and Save Machine Learning Models in Backend:
+4. Create and Save Machine Learning Models in Backend:
    
    Access the file modelTraining.ipynb found in the Back/backend/research directory. Run the first 3 cells to load the training data. Run the last 5 cells to save the classification models as .pkl files in that directory.
    
-4. Frontend Setup:
+5. Frontend Setup:
 
    - Navigate to frontend directory (from root directory)
 
@@ -80,7 +80,7 @@ To get a local copy up and running, follow these steps:
   
      npm install
      
-5. Running the project:
+6. Running the project:
 
    - Run the backend
 
@@ -94,7 +94,7 @@ To get a local copy up and running, follow these steps:
 
     To stop running the frontend or the backend use ctrl+c
     
-6. Containerization with Docker:
+7. Containerization with Docker:
 
    - Build and run the backend with Docker
 
