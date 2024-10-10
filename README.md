@@ -8,11 +8,6 @@ This is a full-stack web application that detects the language of a given text u
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Running the Application](#running-the-application)
-- [Using Docker](#using-docker)
-- [Deployment](#deployment)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
 
 ## Features
 
@@ -118,6 +113,7 @@ You can register as a new user, log in, and submit text for language detection. 
 
 ### PROJECT STRUCTURE
 
+'''graphql
 Project/
 │
 ├── BACK/ backend/                                  # Django backend folder
@@ -147,5 +143,6 @@ Project/
 │
 ├── .gitignore              # Files to be ignored by Git
 └── README.md               # Project documentation
+'''
 
 
