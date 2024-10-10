@@ -47,7 +47,6 @@ To get a local copy up and running, follow these steps:
 1. Clone the repo:
    
    git clone https://github.com/your-username/project-name.git
-   cd project-name
 
 3. Backend Setup:
    
