@@ -87,7 +87,7 @@ To get a local copy up and running, follow these steps:
      cd BACK/backend
      python manage.py runserver
 
-  - Run the frontend (in a seperate terminal)
+   - Run the frontend (in a seperate terminal)
 
     cd FRONT/ frontend
     npm run dev
