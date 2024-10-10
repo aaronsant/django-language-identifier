@@ -7,7 +7,6 @@ This is a full-stack web application that detects the language of a given text u
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 
 ## Features
 
@@ -110,39 +109,5 @@ Once the project is up and running, you can:
  - Access the API at http://localhost:8000/api/.
 You can register as a new user, log in, and submit text for language detection. The selected classification algorithm is used to detect the language, and you can view the results along with past submissions.
 
-
-### PROJECT STRUCTURE
-
-'''graphql
-Project/
-│
-├── BACK/ backend/                                  # Django backend folder
-│         ├── manage.py                             # Django management script
-│         ├── Dockerfile                            # Dockerfile for the docker container
-│         ├── docker-compose.yml                    # docker-compose used to configure the build process for the docker container
-│         ├── requirements.txt                      # backend dependencies
-|         ├── apps/                                 # Django apps folder
-|         |   ├── api/                              # API folder containing the models, serializers, urls and views for the API
-|         |   ├── ml/                               # Machine learning folder containing code related to the machine learning algorthims
-|         |   |   ├── language_classifier/          # contains the 5 classifier models as objects, referencing the .pkl files from the research folder
-│         ├── backend/                              # Django app folder
-│         │   ├── settings.py                       # Django settings
-│         │   ├── urls.py                           # Django URL routing
-│         │   └── wsgi.py                           # WSGI config for Gunicorn
-│
-├── Front/ frontend/               # React frontend
-│         ├── src/
-│         │   ├── components/     # React components
-│         │   ├── Contexts/       # React contexts
-│         │   ├── pages/          # frontend pages
-│         │   ├── styles/         # CSS Styles
-│         │   ├── App.js          # Main App component
-│         │   ├── api.js          # Axios api configuration
-│         │   ├── constants.js    # Acess and refresh tokens
-│         │   ├── main.jsx        # Entry point
-│
-├── .gitignore              # Files to be ignored by Git
-└── README.md               # Project documentation
-'''
 
 
